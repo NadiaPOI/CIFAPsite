@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /*
 Reset
 */
@@ -18,4 +20,21 @@ Reset
 
     body{
         font-size: 1.5rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+/*
+Style header
+*/
+    nav ul{
+        display: none;
+    }
+
+    /* Fake burger */
+    .fa-bars:hover + ul{
+        display: block;
     }
