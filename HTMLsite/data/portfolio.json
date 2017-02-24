@@ -3,24 +3,64 @@
         "title": "Projet 1",
         "subtitle": "Site web HTML/CSS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
-        "cover": "1.jpg"
+        "cover": "1.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
     },
       {
         "title": "Projet 2",
         "subtitle": "Site web Ajax",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
-        "cover": "2.jpg"
+        "cover": "2.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
     },
       {
         "title": "Projet 3",
         "subtitle": "Application AngularJS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
-        "cover": "3.jpg"
+        "cover": "3.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
     },
       {
         "title": "Projet 4",
         "subtitle": "Système de connexion",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
-        "cover": "4.jpg"
+        "cover": "4.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
+    },
+    {
+        "title": "Projet 1",
+        "subtitle": "Site web HTML/CSS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "1.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
+    },
+      {
+        "title": "Projet 2",
+        "subtitle": "Site web Ajax",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "2.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
+    },
+      {
+        "title": "Projet 3",
+        "subtitle": "Application AngularJS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "3.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
+    },
+      {
+        "title": "Projet 4",
+        "subtitle": "Système de connexion",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "4.jpg",
+        "link": "http//www.adresseDuProjet.com",
+        "github": "https://github.com/DWS-paris/CIFAPsite"
     }
 ]

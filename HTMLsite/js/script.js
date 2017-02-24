@@ -20,9 +20,21 @@ $(document).ready(function(){
             console.log('Vous êtes sur la page portfolio');
 
             // Créer une fonction pour ajouter des balises dans le DOM
-            function addContent(cover, title, subtitle){
+            function addContent(cover, title, subtitle, desc, link, github){
                 $('main section').append(''+
-                
+
+                     '<div class="modal">'+
+                        '<div>'+
+                            '<i class="fa fa-times" aria-hidden="true"></i>' +
+                            '<h3>'+ title +' <span>'+ subtitle +'</span></h3>'+
+                            '<img src="img/'+ cover +'" alt="Image '+ title +'">'+
+                            '<p>'+ desc +'</p>'+
+                            '<a href="'+ link +'" target="_blank">Voir le projet</a>'+
+                            '<a href="'+ github +'" target="_blank">Voir les sources projet</a>'+
+                        '</div>'+
+                    '</div>'+
+
+
                     '<article>' +
                         '<button>Voir le projet</button>' +
                         '<div>' +
@@ -46,13 +58,22 @@ $(document).ready(function(){
                         
                         // Faire une boucle sur data
                         for( var i = 0; i < data.length; i++ ){
-                            console.log(data[i]);
-                            addContent(data[i].cover, data[i].title, data[i].subtitle)
+                            addContent(data[i].cover, data[i].title, data[i].subtitle, data[i].description, data[i].link, data[i].github)
                         }
 
                     },
                     error: function(err){
                         console.log(err)
+                    },
+                    complete: function(){
+                        // Pour capter un bouton généré en Ajax, il faut le faire dans le complete car le bouton n'est pas sélectionnable avant qu'il soit dans le DOM
+                        $('button').on('click', function(){
+                            $(this).parent().prev().fadeIn();
+                        });
+
+                        $('.fa-times').click(function(){
+                            $(this).parent().parent().fadeOut();
+                        })
                     }
 
             })
