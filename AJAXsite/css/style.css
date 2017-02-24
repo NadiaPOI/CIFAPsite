@@ -115,3 +115,10 @@ Style footer
         left: 0;
         width: 100%;
     }
+
+/*
+Style main
+*/
+    main{
+        display: none;
+    }
