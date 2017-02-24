@@ -30,7 +30,7 @@ Reset
         font-weight: normal;
     }
 
-    a, .fa-bars{
+    a, .fa-bars, .pagePortfolio article button{
         text-decoration: none;
 
         -webkit-transition: all .5s;
@@ -114,4 +114,54 @@ Style footer
         bottom: 0;
         left: 0;
         width: 100%;
+    }
+
+
+/*
+Style portfolio
+*/
+    .pagePortfolio article {
+        float: left;
+        width: 50%;
+        border: 1rem solid white;
+        height: 20rem;
+        margin-bottom: 3rem;
+        overflow: hidden;
+
+        position: relative;
+    }
+
+    .pagePortfolio article div {
+        position: absolute;
+        width: 70%;
+        background-color: white;
+        padding: 2rem;
+        bottom: 0;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .pagePortfolio article button {
+        background-color: #22175b;
+        border: none;
+        padding: .5rem 1rem;
+        color: white;
+        position: absolute;
+        top: -3rem;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .pagePortfolio article:hover button{
+        top: 3rem;
+    }
+
+    .pagePortfolio article span {
+        background-attachment: fixed;
+        display: block;
+        height: 80%;
     }

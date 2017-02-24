@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Projet 1",
+        "subtitle": "Site web HTML/CSS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "1.jpg"
+    },
+      {
+        "title": "Projet 2",
+        "subtitle": "Site web Ajax",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "2.jpg"
+    },
+      {
+        "title": "Projet 3",
+        "subtitle": "Application AngularJS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "3.jpg"
+    },
+      {
+        "title": "Projet 4",
+        "subtitle": "Système de connexion",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "4.jpg"
+    }
+]
