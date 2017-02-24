@@ -1,4 +1,5 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Quicksand:400,700');
 
 /*
 Reset
@@ -20,21 +21,97 @@ Reset
 
     body{
         font-size: 1.5rem;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
     }
 
-    a{
+    h1, h2{
+        font-family: 'Patua One', cursive;
+        font-weight: normal;
+    }
+
+    a, .fa-bars{
         text-decoration: none;
+
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    }
+
+    ul{
+        list-style: none;
     }
 
 
 /*
 Style header
 */
-    nav ul{
-        display: none;
+    header{
+        background-color: #22175B;
+        color: white;
+        padding: 2rem;
+        position: relative;
+        margin-bottom: 3rem;
     }
 
-    /* Fake burger */
-    .fa-bars:hover + ul{
+    h1 span{
         display: block;
+        font-size: .5em;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 1rem; 
+    }
+
+    nav ul{
+        display: none;
+        padding-bottom: 1rem;
+    }
+
+    .fa-bars {
+        background-color: white;
+        padding: 1rem 1.1rem;
+        color: #22175b;
+        margin-top: 1rem;
+        border: .2rem solid #22175b;
+        position: absolute;
+        bottom: -1.8rem;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+
+        -webkit-border-radius: 50%;
+        border-radius: 50%; 
+    }
+
+    .fa-bars.active{
+        background-color: #22175b;
+        color: white;
+        border-color: white;
+    }
+
+    nav a {
+        color: white;
+        font-weight: 700;
+        background: rgba(255, 255, 255, .5);
+        display: block;
+        padding: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    nav a:hover, .active{
+        color: #22175B;
+        background-color: white;
+    }
+
+
+/*
+Style footer
+*/
+    footer{
+        background-color: #22175B;
+        color: white;
+        padding: .5rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
